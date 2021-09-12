@@ -82,6 +82,11 @@
     *** thẻ html không có thẻ cha ==> nó có display: block ==> nó kế thừa chiều ngang của trình duyệt ==> body có display: block ==> nó kế thừa chiều ngang của thẻ HTML ==> nó kế thừa chiều ngang của trình duyệt ==> cứ như vậy header tag cũng được kế thừa chiều ngang của trình duyệt
     *** link trong video hướng dẫn: <link href="https://fonts.googleapis.com/css2?family=Roboto:300,400,500;700&display=swap&subset=vietnamese" rel="stylesheet">
     *** transform: translateY(-50%) ==> -50% kích thước chiều cao của chính nó
+  - 38. Nhúng Font-Icons
+    - fontawesome thực ra chỉ là 1 file css được viết sẵn (đã định nghĩa ra những class) ==> chỉ lấy ra dùng
+  - 39. Icons CSS
+    - thẻ span sinh ra chỉ với mục đích css cho 1 element
+    *** khi hover chẻ cha ==> nếu thẻ con đã ghi đè thuộc tính của thẻ cha thì thẻ con sẽ không được ảnh hưởng bởi hover
   - 92. Header cart - List products
     - tại sao margin của thẻ heading lại khác với trong bản của sơn đặng
   - 99. Danh mục CSS
