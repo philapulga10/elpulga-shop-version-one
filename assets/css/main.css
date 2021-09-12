@@ -29,6 +29,7 @@
   font-weight: 300;
 }
 
+.header__navbar-list,
 .header__navbar-item,
 .header__navbar-item-link,
 .header__navbar-icon-link {
