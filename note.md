@@ -66,27 +66,30 @@
   - 30. CSS Position: Absolute
     - phục thuộc vào thẻ cha gần nhất có thuộc tính position (không phân biệt giá trị, có thể là relative, absolute, fixed, sticky) để lấy thẻ cha đó làm gốc tọa độ
     - nhìn layout => có 1 đối tượng là con của đối tượng khác => cần di chuyển vị trí của đối tượng con xung quanh đối tượng cha => sử dụng position
-  - 34. Reset CSS
+  - 72. Reset CSS
     - mặc định trình duyệt sẽ có những thuộc tính mặc định cho một số thẻ HTML của chúng ta ==> khi không muốn sử dụng những giá trị mặc định này ==> reset nó
     - những giá trị mặc định này không phải trình duyệt nào cũng giống nhau
     ==> cần chủ động CSS cho những thẻ HTML 1 giá trị mặc định ngay từ đầu ==> để trên mọi trình duyệt ==> những giá trị này sẽ là quy chuẩn do ta đặt ra thay vì ta cứ sử dụng những quy chuẩn do trình duyệt áp đặt
     - *** normalize - cdnjs.com
-  - 35. Dựng base CSS
+  - 73. Dựng base CSS
     - *** selector *: apply tất cả các thuộc tính CSS lên tất cả các phần tử HTML được nhúng file này
-  - 36. Dựng khung web
+  - 74. Dựng khung web
     - Nếu xem header là 1 block ==> con của header là element ==> tên class là header__navbar ==> nếu thêm class modified ==> header__navbar--modified
-  - 37. Navbar CSS
+  - 75. Navbar CSS
     - nếu màu nên là màu chuyển ==> sử dụng background-image
     *** user agent stylesheet: là những thuộc tính CSS mà trình duyệt đang apply vào thẻ ta đang select
     *** display: block ==> giúp ta có thể đặt chiều ngang, chiều dọc cho element và nó có thể kế thừa chiều ngang của thẻ chứa nó
     *** thẻ html không có thẻ cha ==> nó có display: block ==> nó kế thừa chiều ngang của trình duyệt ==> body có display: block ==> nó kế thừa chiều ngang của thẻ HTML ==> nó kế thừa chiều ngang của trình duyệt ==> cứ như vậy header tag cũng được kế thừa chiều ngang của trình duyệt
     *** link trong video hướng dẫn: <link href="https://fonts.googleapis.com/css2?family=Roboto:300,400,500;700&display=swap&subset=vietnamese" rel="stylesheet">
     *** transform: translateY(-50%) ==> -50% kích thước chiều cao của chính nó
-  - 38. Nhúng Font-Icons
+  - 76. Nhúng Font-Icons
     - fontawesome thực ra chỉ là 1 file css được viết sẵn (đã định nghĩa ra những class) ==> chỉ lấy ra dùng
-  - 39. Icons CSS
+  - 77. Icons CSS
     - thẻ span sinh ra chỉ với mục đích css cho 1 element
     *** khi hover chẻ cha ==> nếu thẻ con đã ghi đè thuộc tính của thẻ cha thì thẻ con sẽ không được ảnh hưởng bởi hover
+  - 78. Header QR code CSS
+    - khi phần tử con có top: x% ==> x% theo chiều cao của thành phần cha
+    *** <i></i> mới apply được thuộc tính font-size, còn <img> thì apply được thuộc tính height
   - 92. Header cart - List products
     - tại sao margin của thẻ heading lại khác với trong bản của sơn đặng
   - 99. Danh mục CSS
